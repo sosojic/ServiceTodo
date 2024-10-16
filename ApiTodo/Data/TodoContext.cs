@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 public class TodoContext : DbContext
 {
   public DbSet<Todo> Todo { get; set; } = null!;
+public DbSet<Agenda> Agenda { get; set; } = null!;
+
   public string DbPath { get; private set; }
 
 

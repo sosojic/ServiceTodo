@@ -6,4 +6,7 @@ public class Todo
     public bool Completed { get; set; }
     public DateTime? Deadline { get; set; }
 
+    public Agenda? Agenda { get; set; }
+    public int? AgendaId { get; set; }
+
 }
