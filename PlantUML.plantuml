@@ -1,0 +1,14 @@
+@startuml PlantUML
+class Agenda{
+int Id
+string Name
+List<Todo>
+}
+
+class Todo {
+AgendaId
+Agenda
+}
+
+Todo"0.1" -- "n" Agenda
+@enduml
